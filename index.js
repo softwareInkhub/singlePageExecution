@@ -282,11 +282,11 @@ app.post('/execute', async (req, res) => {
   }
 });
 
-const PORT = process.env.PORT || 5000;
-app.listen(PORT, '0.0.0.0', () => {
-  console.log(`Server listening on port ${PORT}`);
+// const PORT = process.env.PORT || 5000;
+// app.listen(PORT, '0.0.0.0', () => {
+//   console.log(`Server listening on port ${PORT}`);
  
-});
+// });
 
-// export const handler = serverless(app);
+export const handler = serverless(app);
 
